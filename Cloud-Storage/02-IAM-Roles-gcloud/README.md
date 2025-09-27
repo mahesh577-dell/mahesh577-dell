@@ -23,7 +23,7 @@ gcloud compute instances create vm1 \
 ```
 
 ## Step-03: Pre-requisite: Create a test gmail id for this demo
-- gcpuser08@gmail.com
+- mahammadsharuq@gmail.com
 
 ## Step-04: Custom Role: Delete VM
 ### Step-04-01: Role Definition using YAML file
@@ -65,9 +65,9 @@ gcloud iam roles describe ROLE_ID --project=gcplearn9
 gcloud iam roles describe myInstanceReset102 --project=gcplearn9
 ```
 
-## Step-05: Add IAM Roles to User: gcpuser08@gmail.com
+## Step-05: Add IAM Roles to User: mahammadsharuq@gmail.com
 - Go to IAM & Admin -> IAM -> GRANT ACCESS
-- **Add Principal:** gcpuser08@gmail.com
+- **Add Principal:** mahammadsharuq@gmail.com
 - **Select Role:** Compute Viewer
 - **Select Role:** Custom Role Start Stop VM
 - **Select Role:** Custom Compute Instance Delete Role 102
@@ -75,10 +75,10 @@ gcloud iam roles describe myInstanceReset102 --project=gcplearn9
 - Click on **SAVE**
 
 
-## Step-06: Login to Google Cloud with new user gcpuser08@gmail.com
+## Step-06: Login to Google Cloud with new user mahammadsharuq@gmail.com
 - Open in New incognito window
 - [Login to Google Cloud](https://cloud.google.com)
-  - **Username:** gcpuser08@gmail.com
+  - **Username:** mahammadsharuq@gmail.com
   - **Password:** XXXXXXXX
 - Select Project **gcplearn9**
 - **Observation-1:** We should have options **DELETE** and **RESET** options enabled
